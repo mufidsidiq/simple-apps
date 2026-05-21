@@ -1,7 +1,5 @@
 pipeline {
     agent {label 'DevOps1'}
-    
-
     stages {
         stage('Checkout SCM') {
             steps {

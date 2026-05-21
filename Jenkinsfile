@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout SCM') {
             steps {
-                git branch: 'dev', url: 'https://github.com/mufidsidiq/simple-apps.git'
+                git branch: 'main', url: 'https://github.com/mufidsidiq/simple-apps.git'
             }
         }
         stage('Build') {
